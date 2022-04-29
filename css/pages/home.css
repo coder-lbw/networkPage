@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  width: 500%;
+}
+
+main > div {
+  visibility: hidden;
+  width: 20%;
+}
+
+main input:checked + div {
+  visibility: visible;
+  transition: transform calc(var(--offsetx) * 1s) linear;
+  transition-delay: calc(var(--offsetx) * (1 - 1 / var(--offsetx))* -1s);
+  transform: translateX(calc(var(--offsetx) * -100%));
+}

@@ -1,0 +1,25 @@
+footer {
+  padding: 20px 0;
+  background-color: rgb(22, 111, 212);
+  text-align: center;
+  color: white;
+}
+.about-info {
+  display: flex;
+  font-size: 14px;
+  text-align: left;
+}
+.about-info div:first-child {
+  position: relative;
+  width: 50%;
+  padding-left: 10vw;
+}
+.about-info div:first-child::before {
+  position: absolute;
+  left: calc(10vw - 3em);
+  content: '地址：';
+}
+.about-info div:last-child {
+  width: 50%;
+  padding-left: 5vw;
+}

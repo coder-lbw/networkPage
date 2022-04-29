@@ -1,0 +1,23 @@
+{
+  "id": "3368626",
+  "name": "朱老师项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1221498",
+      "name": "电话",
+      "font_class": "tel",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "700831",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}
