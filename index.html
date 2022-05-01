@@ -10,12 +10,14 @@
   <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon"> 
   <link rel="stylesheet" href="./font/iconfont.css">
   <link rel="stylesheet" href="./normalize.css">
-  <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./css/head.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/pages/home.css">
   <link rel="stylesheet" href="./css/pages/introduction.css">
 
+  <link rel="stylesheet" href="./index.css">
+
+  <script src="./index.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -26,12 +28,16 @@
         <img src="./images/title.png" alt="山东枫润净化设备有限公司" class="title-img">
       </a>
       <img src="./images/title1.png" alt="" class="title-middle">
-      <img src="./images//desc.png" alt="空气过滤器专业制造商">
+      <img src="./images//desc.png" alt="空气过滤器专业制造商" class="title-right">
+      <div class="mobile-phone" hidden>
+        <img src="./images/logo.png" alt="">
+        <span class="iconfont icon-zhankai" id="expand"></span>
+      </div>
     </header>
 
     <!-- 页面导航 -->
-    <div class="nav">
-      <label for="home">首页</label>
+    <div class="nav nav-none" id="nav">
+      <label for="home" class="nav-active">首页</label>
       <label for="introduction">公司介绍</label>
       <label for="product-center">产品中心</label>
       <label for="application-project">应用项目</label>
@@ -56,27 +62,53 @@
         </div>
         <div class="production-dispaly">
           <div class="sumary">产品展示</div>
-          <div class="images">
+          <div class="images images1">
             <img src="./images/home/production1.png" alt="">
             <img src="./images/home/production2.png" alt="">
             <img src="./images/home/production3.png" alt="">
             <img src="./images/home/production4.png" alt="">
           </div>
-          <p><span>主要通用型产品：</span>各式空气过滤器、过滤棉过滤材料、全系列初、中、高效空气过滤器；环保专用活性炭吸附过滤器，净化器及新风机专用过滤器，过滤网等。
+          <p><span style="font-weight: 700;">主要通用型产品：</span>各式空气过滤器、过滤棉过滤材料、全系列初、中、高效空气过滤器；环保专用活性炭吸附过滤器，净化器及新风机专用过滤器，过滤网等。
           </p>
-          <div class="images">
+          <div class="images images2">
             <img src="./images/home/production5.png" alt="">
             <img src="./images/home/production6.png" alt="">
             <img src="./images/home/production7.png" alt="">
           </div>
-          <p><span>自主知识产权的专有产品：</span>针对近海工业厂房高腐蚀环境下电子元器件的腐蚀问题，自主研发了可高效吸收盐雾、酸雾、二氧化硫、硫化氢、及甲醛等有害气体的化学过滤器滤芯及微正压密封防腐整机设备，对上述有害物质的去除率可达90%以上，滤芯寿命长，可使中控室内电子设备维保周期延长2倍以上。
+          <p><span  style="font-weight: 700;">自主知识产权的专有产品：</span>针对近海工业厂房高腐蚀环境下电子元器件的腐蚀问题，自主研发了可高效吸收盐雾、酸雾、二氧化硫、硫化氢、及甲醛等有害气体的化学过滤器滤芯及微正压密封防腐整机设备，对上述有害物质的去除率可达90%以上，滤芯寿命长，可使中控室内电子设备维保周期延长2倍以上。
           </p>
         </div>
         <div class="advantage">
-
+          <div class="sumary">核心优势</div>
+          <div class="advantage-cont">
+            <img src="./images/home/advantage-cont.png" alt="">
+          </div>
         </div>
         <div class="production-feature">
-
+          <div class="sumary">产品特点</div>
+          <div class="df-cont">
+            <div>
+              <img src="./images//home/pf1.png" alt="">
+              <p>选用国内外最优质的原材料，抗油抗水渗透，滤纸纤维细且分布均匀，滤纸效率高，风速均匀且阻力低;袋式容尘层因选用更纤细维熔喷成型，所以手感更蓬松，实测容尘量高出现有常见产品1倍以上。
+                </p>  
+            </div>
+            <div>
+              <img src="./images//home/pf2.png" alt="">
+              <p>采用进口折纸机打折上胶，折纸笔挺、折距均匀;为空气过滤器达到最小阻力，经反复调整折距测试，得出最佳折距，公司生产产品与市场常见产品效率相同情况下，阻力低15%——20%
+              </p>
+            </div>
+            <div>
+              <img src="./images//home/pf3.png" alt="">
+              <p>为提高使用寿命，减少更换频次，请尽量选用过滤面积大的过滤器，过滤面积增加50%，使用寿命可增加一倍﹔合理搭配过滤梯度，充分发挥每一级空气过滤器的预过滤作用，对减少管道积灰，保护送风系统中的表冷器等配件有显著效果。
+              </p>
+            </div>
+            <div>
+              <img src="./images//home/pf4.png" alt="">
+              <p>
+                对高效洁净的洁净室如有一个过滤器存在泄露，整个洁净室都不会达标﹔因此高效过滤器出厂前必须逐台检测，效率、风量、阻力、泄露率都合格才允许出厂。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

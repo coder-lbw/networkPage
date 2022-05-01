@@ -6,7 +6,7 @@ footer {
 }
 .about-info {
   display: flex;
-  font-size: 14px;
+  font-size: .6rem;
   text-align: left;
 }
 .about-info div:first-child {

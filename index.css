@@ -26,3 +26,21 @@ html {
     font-size: calc(22px + 5 * (100vw - 1000px) / 1000);
   }
 }
+
+/* 头部适配 */
+@media (max-width: 1500px) {
+  .title-middle {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .title-right {
+    display: none;
+  }
+  .nav-none {
+    display: none;
+  }
+  .mobile-phone {
+    display: flex;
+  }
+}
