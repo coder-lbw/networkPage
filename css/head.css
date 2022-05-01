@@ -1,13 +1,27 @@
 header {
-  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  height: clamp(59px, 8vw, 80px);
   line-height: 50px;
 }
 header h1 {
   position: absolute;
-  opacity: 0;
+  visibility: hidden;
 }
 header img {
   height: 100%;
+}
+.mobile-phone {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 160px;
+}
+.mobile-phone img{
+  height: 59px;
+}
+.mobile-phone span {
+  font-size: 35px;
 }
 
 .nav {
@@ -16,10 +30,34 @@ header img {
   align-items: center;
   width: 100%;
   height: 60px;
+  margin-bottom: 2px;
   background-color: rgb(22, 111, 212);
-  font-size: 22px;
+  font-size: 1rem;
   color: #fff;
 }
 .nav label {
   line-height: 100%;
+}
+
+.mobile-nav {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: rgb(22, 111, 212);
+  font-size: 1rem;
+  color: #fff;
+}
+
+.nav-active {
+  color: red;
+}
+#nav label {
+  padding: .5rem;
 }
