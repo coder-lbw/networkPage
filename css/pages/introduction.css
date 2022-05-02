@@ -2,6 +2,10 @@
     width: 100%;
     height: clamp(168px, 17.5vw, 300px);
 }
+.introduceWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
 .introduction .introduction-h2 {
     font-size: 1.4rem;
     text-align: center;

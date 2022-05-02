@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  height: clamp(59px, 8vw, 80px);
+  height: clamp(59px, 8vw, 75px);
   line-height: 50px;
 }
 header h1 {
@@ -36,6 +36,7 @@ header img {
   color: #fff;
 }
 .nav label {
+  cursor: pointer;
   line-height: 100%;
 }
 

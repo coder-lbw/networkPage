@@ -1,0 +1,77 @@
+.product-center-box {
+  display: flex;
+  padding: 0 .3rem;
+}
+
+/* 左侧导航 */
+.left-accordion {
+  text-align: center;
+  width: 22%;
+}
+.left-accordion article {
+  cursor: pointer;
+}
+article + article {
+  margin-top: .3rem;
+}
+.left-accordion > input:nth-child(1):checked ~ article:nth-of-type(1) div,
+.left-accordion > input:nth-child(2):checked ~ article:nth-of-type(2) div,
+.left-accordion > input:nth-child(3):checked ~ article:nth-of-type(3) div,
+.left-accordion > input:nth-child(4):checked ~ article:nth-of-type(4) div,
+.left-accordion > input:nth-child(5):checked ~ article:nth-of-type(5) div {
+  border-bottom-width: 1px;
+  max-height: 600px;
+}
+
+article > label {
+  display: block;
+  padding: 0 .1rem;
+  height: 2rem;
+  border-radius: 3px;
+  background-color: rgb(37, 79, 194);
+  cursor: pointer;
+  line-height: 2rem;
+  font-size: clamp(.8rem, 3vw, 1.1rem);
+  font-weight: 700;
+  color: #fff;
+}
+article div {
+  overflow: hidden;
+  padding: 0 .2rem;
+  border: 1px solid rgb(37, 79, 194);
+  border-top: none;
+  border-bottom-width: 0;
+  max-height: 0;
+  line-height: 30px;
+  transition: all 500ms;
+}
+.two-select-cont {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(.6rem, 2vw, .8rem);
+}
+.two-select-cont label {
+  height: 1.7rem;
+  margin: .1rem 0;
+  padding: 0 3px;
+  border-radius: 3px;
+  background-color: rgb(214, 213, 213);
+  background-clip: padding-box;
+  line-height: 1.7rem;
+}
+
+/* 右侧内容区域 */
+.right-cont {
+  width: 75%;
+  margin-left: auto;
+}
+.right-cont div {
+  display: none;
+}
+.right-cont input:checked + div {
+  display: block;
+}
+.right-cont img {
+  width: 100%;
+  margin-bottom: 10px;
+}

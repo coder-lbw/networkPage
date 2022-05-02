@@ -5,15 +5,15 @@ main {
 }
 
 main > div {
+  display: none;
   visibility: hidden;
-  width: 100%;
+  width: 20%;
 }
 
-main input:checked + div {
+main > input:checked + div {
+  display: block;
   visibility: visible;
-  transition: transform calc(var(--offsetx) * .2s) linear;
-  transition-delay: calc(var(--offsetx) * (1 - 1 / var(--offsetx))* -.2s);
-  transform: translateX(calc(var(--offsetx) * -100%));
+  width: 20%;
 }
 
 .home {

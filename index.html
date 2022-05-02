@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/pages/home.css">
   <link rel="stylesheet" href="./css/pages/introduction.css">
+  <link rel="stylesheet" href="./css/pages/productCenter.css">
 
   <link rel="stylesheet" href="./index.css">
 
@@ -200,58 +201,108 @@
       </div>
 
       <!-- 产品中心 -->
+      <input type="radio" name="nav" id="product-center" hidden>
       <div class="product-center" style="--offsetx: 2">
-        <div class="productCenter">
-          <div class="header"></div>
-          <div class="left">
-            <div class="buts1">
-              <div class="showButInfo">初级过滤器</div>
-              <label for="a1" class="productCenter-butItem">纸框初效过滤器
-              </label>
-              <label for="a2" class="productCenter-butItem">铝框初效过滤器
-              </label>
-              <label for="a3" class="productCenter-butItem">铝框初效板式附网棉过滤器
-              </label>
-              <label for="a4" class="productCenter-butItem">铝框初效袋式过滤器
-              </label>
-            </div>
-            <div class="buts2">
-              <div class="showButInfo">中效过滤器
+        <div style="width: 100%;">
+          <img src="./images/productCenter/0.png" alt="" style="width: 100%;">
+        </div>
+        <div class="product-center-box">
+          <div class="left-accordion">
+            <input type="checkbox"  id="collapse1" hidden checked>
+            <input type="checkbox"  id="collapse2" hidden>
+            <input type="checkbox"  id="collapse3" hidden>
+            <input type="checkbox"  id="collapse4" hidden>
+            <input type="checkbox"  id="collapse5" hidden>
+            <article>
+              <label for="collapse1">初效过滤器</label>
+              <div class="two-select-cont">
+                <label for="content-1-1" class="nav-active">纸框初效过滤器</label>
+                <label for="content-1-2">铝框初效过滤器</label>
+                <label for="content-1-3">铝框初效板式附网棉过滤器</label>
+                <label for="content-1-4">铝框初效袋式过滤器</label>
               </div>
-              <label for="b1" class="productCenter-butItem">铝框中效F5-F8过滤器
-              </label>
-            </div>
-            <div class="buts3">
-              <div class="showButInfo">高效过滤器
+            </article>
+            <article>
+              <label for="collapse2">中效过滤器</label>
+              <div class="two-select-cont">
+                <label for="content-2-1">铝框中效F5-F8过滤器</label>
               </div>
-              <label for="c1" class="productCenter-butItem">高效无隔板过滤器
-              </label>
-              <label for="c2" class="productCenter-butItem">V型大风量无隔板亚高效过滤器
-              </label>
-              <label for="c3" class="productCenter-butItem">高效有隔板过滤器
-              </label>
-            </div>
-            <div class="buts4">
-              <div class="showButInfo">化学过滤器
+            </article>
+            <article>
+              <label for="collapse3">高效过滤器</label>
+              <div class="two-select-cont">
+                <label for="content-3-1">高效无隔板过滤器</label>
+                <label for="content-3-2">V型大风量无隔板亚高效过滤器</label>
+                <label for="content-3-3">高效有隔板过滤器</label>
               </div>
-              <label for="d1" class="productCenter-butItem">活性炭吸附过滤器
-              </label>
-              <label for="d2" class="productCenter-butItem">特制除酸盐雾过滤器
-              </label>
-            </div>
-            <div class="buts5">
-              <div class="showButInfo">防腐设备
+            </article>
+            <article>
+              <label for="collapse4" style="background-color: rgb(236, 57, 57);">化学过滤器</label>
+              <div class="two-select-cont" style="border-color: rgb(236, 57, 57);">
+                <label for="content-4-1">活性炭吸附过滤器</label>
+                <label for="content-4-2">特制除酸盐雾过滤器</label>
               </div>
-              <label for="e1" class="productCenter-butItem">微正压防腐系统
-              </label>
-            </div>
-
+            </article>
+            <article>
+              <label for="collapse5" style="background-color: rgb(17, 216, 100);">防腐设备</label>
+              <div class="two-select-cont" style="border-color: rgb(17, 216, 100);">
+                <label for="content-5-1">微正压防腐设备整机</label>
+              </div>
+            </article>
           </div>
-          <div class="right">
-            <input type="radio" checked  id="a1" hidden>
+          <div class="right-cont">
+            <input type="radio" name="production-center" id="content-1-1" checked hidden>
             <div>
               <img src="./images/productCenter/1-1-1.png" alt="">
               <img src="./images/productCenter/1-1-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-1-2" hidden>
+            <div>
+              <img src="./images/productCenter/1-2-1.png" alt="">
+              <img src="./images/productCenter/1-2-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-1-3" hidden>
+            <div>
+              <img src="./images/productCenter/1-3-1.png" alt="">
+              <img src="./images/productCenter/1-3-2.png" alt="">
+              <img src="./images/productCenter/1-3-3.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-1-4" hidden>
+            <div>
+              <img src="./images/productCenter/1-4-1.png" alt="">
+              <img src="./images/productCenter/1-4-2.png" alt="">
+              <img src="./images/productCenter/1-4-3.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-2-1" hidden>
+            <div>
+              <img src="./images/productCenter/2-1-1.png" alt="">
+              <img src="./images/productCenter/2-1-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-3-1" hidden>
+            <div> 
+              <img src="./images/productCenter/3-1-1.png" alt="">
+              <img src="./images/productCenter/3-1-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-3-2" hidden>
+            <div>
+              <img src="./images/productCenter/3-2-1.png" alt="">
+              <img src="./images/productCenter/3-2-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-3-3" hidden>
+            <div>
+              <img src="./images/productCenter/3-3.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-4-1" hidden>
+            <div>
+              <img src="./images/productCenter/4-1.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-4-2" hidden>
+            <div>
+              <img src="./images/productCenter/4-2.png" alt="">
+            </div>
+            <input type="radio" name="production-center" id="content-5-1" hidden>
+            <div>
+              <img src="./images/productCenter/5.png" alt="">
             </div>
           </div>
         </div>
