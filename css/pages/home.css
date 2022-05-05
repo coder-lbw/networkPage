@@ -1,0 +1,92 @@
+main {
+  display: flex;
+  width: 500%;
+  margin-bottom: 1rem;
+}
+
+main > div {
+  display: none;
+  visibility: hidden;
+  width: 20%;
+}
+
+main > input:checked + div {
+  display: block;
+  visibility: visible;
+  width: 20%;
+}
+
+.home {
+  width: 100%;
+}
+.home-title {
+  width: 100%;
+  height: clamp(168px, 17.5vw, 300px);
+  background: url(../../images/home/home-title.png);
+  background-size: contain;;
+}
+.home-title > div {
+  padding: clamp(10px, 3vw, 50px) 0 0 clamp(13px, 4vw, 64px);
+}
+.home-title img {
+  width: clamp(300px, 25vw, 500px);
+}
+.keyword {
+  display: flex;
+  justify-content: space-around;
+  width: clamp(300px, 25vw, 500px);
+  padding-top: 10px;
+  font-size: .8rem;
+  color: white;
+}
+
+/* 产品展示 */
+.production-dispaly {
+  width: 100%;
+}
+.production-dispaly p {
+  padding: 0 1rem;
+  line-height: 1.4rem;
+  font-size: .8rem;
+}
+.sumary {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+  color: red;
+}
+.production-dispaly .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.images1 img {
+  flex: 0;
+  width: clamp(160px, 12vw, 350px);
+  margin-bottom: 10px;
+}
+.images2 img {
+  flex: 0;
+  width: clamp(250px, 15vw, 400px);
+  margin-bottom: 10px;
+}
+
+/* 核心优势 */
+.advantage-cont img {
+  width: 100%;
+}
+
+/* 产品特点 */
+.df-cont {
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+.df-cont img {
+  width: 100%;
+}
+.df-cont p {
+  line-height: 1.4rem;
+  font-size: .8rem;
+}

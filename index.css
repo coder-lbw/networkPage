@@ -1,0 +1,46 @@
+.container {
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+}
+html {
+  font-size: 16px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: calc(16px + 2 * (100vw - 375px) / 39);
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: calc(18px + 4 * (100vw - 414px) / 586);
+  }
+}
+@media (min-width: 1000px) {
+  html {
+    font-size: calc(22px + 5 * (100vw - 1000px) / 1000);
+  }
+}
+
+/* 头部适配 */
+@media (max-width: 1500px) {
+  .title-middle {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .title-right {
+    display: none;
+  }
+  .nav-none {
+    display: none;
+  }
+  .mobile-phone {
+    display: flex;
+  }
+}

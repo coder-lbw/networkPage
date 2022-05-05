@@ -1,0 +1,13 @@
+.about-box {
+  margin: 1rem 0 1rem;
+  padding: .2rem 1rem;
+  border-radius: 10px;
+  background-color: rgb(155, 235, 235);
+}
+.about-box p:first-child {
+  font-size: 1rem;
+}
+.about-box p:not(:first-child) {
+  text-indent: 1.5em;
+  font-size: .8rem;
+}

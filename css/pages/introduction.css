@@ -1,0 +1,66 @@
+.introduction .introduction-introduce {
+    width: 100%;
+    height: clamp(168px, 17.5vw, 300px);
+}
+.introduceWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.introduction .introduction-h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+}
+.introduction .companyItem {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.introduction .companyItem2-img {
+    float: right;
+    width: 50%;
+    margin-left: 1rem;
+}
+.imgShowBox1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.imgShowBox1 .imgShowBox1-div {
+    width: 100%;
+    margin-left: 1rem;
+}
+.imgShowBox1 .imgShowBox1-img {
+    width: 100%;
+    height: calc(100%);
+}
+.introduction-h3 {
+    text-align: center;
+}
+.imgShowBox2 {
+    height: 11vw;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.imgShowBox2 .imgShowBox2-div {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+}
+.imgShowBox2 .imgShowBox2-img {
+    width: 100%;
+    height: calc(100%);
+}
+.imgShowBox2 .imgShowBox2-text {
+    display: table;
+    margin:0 auto;
+    font-size: 0.7rem;
+}
+.imgShowBox3Row {
+    display: flex;
+    justify-content: space-between;
+}
+.imgShowBox3Row .imgShowBox3-img {
+    width: 30%;
+}
