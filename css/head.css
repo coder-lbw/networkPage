@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   height: 60px;
   height: clamp(60px, 8vw, 75px);
-  line-height: 50px;
+  line-height: 60px;
 }
 header h1 {
   position: absolute;
@@ -22,7 +22,7 @@ header img {
   height: 60px;
 }
 .mobile-phone span {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .nav {
