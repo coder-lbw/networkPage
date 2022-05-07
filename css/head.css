@@ -1,7 +1,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  height: clamp(59px, 8vw, 75px);
+  height: 60px;
+  height: clamp(60px, 8vw, 75px);
   line-height: 50px;
 }
 header h1 {

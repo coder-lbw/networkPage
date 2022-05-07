@@ -31,6 +31,7 @@ article > label {
   background-color: rgb(37, 79, 194);
   cursor: pointer;
   line-height: 2rem;
+  font-size: .8rem;
   font-size: clamp(.8rem, 3vw, 1.1rem);
   font-weight: 700;
   color: #fff;
@@ -48,6 +49,7 @@ article div {
 .two-select-cont {
   display: flex;
   flex-direction: column;
+  font-size: .6rem;
   font-size: clamp(.6rem, 2vw, .8rem);
 }
 .two-select-cont label {
