@@ -10,51 +10,62 @@
     text-align: center;
     font-weight: 700;
     color: red;
+    margin: .8rem 0;
 }
 .introduction .companyItem {
+  overflow: hidden;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 1.6rem;
 }
 .introduction .companyItem2-img {
     float: right;
-    width: 50%;
-    margin-left: 1rem;
+    width: 240px;
+    width: clamp(240px, 50%, 660px);
+    margin-left: .6rem;
+    margin-top: .5rem;
 }
+.companyItem p {
+  text-indent: 2em;
+  font-size: .9rem;
+  line-height: 1.6rem;
+  margin: 0;
+}
+
+
 .imgShowBox1 {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .imgShowBox1 .imgShowBox1-div {
-    width: 100%;
-    margin-left: 1rem;
+    width: 45%;
+    width: clamp(170px, 18vw, 270px);
+    margin-bottom: 1rem;
 }
 .imgShowBox1 .imgShowBox1-img {
     width: 100%;
-    height: calc(100%);
 }
 .introduction-h3 {
     text-align: center;
 }
 .imgShowBox2 {
-    height: 11vw;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
 }
 .imgShowBox2 .imgShowBox2-div {
-    width: 100%;
-    height: 100%;
-    margin-left: 1rem;
+    width: 45%;
+    width: clamp(170px, 18vw, 270px);
+    margin-bottom: .5rem;
 }
 .imgShowBox2 .imgShowBox2-img {
     width: 100%;
-    height: calc(100%);
 }
 .imgShowBox2 .imgShowBox2-text {
-    display: table;
-    margin:0 auto;
-    font-size: 0.7rem;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
 }
 .imgShowBox3Row {
     display: flex;
