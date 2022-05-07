@@ -64,12 +64,12 @@ main > input:checked + div {
 }
 .images1 div {
   flex: 0 1 clamp(160px, 12vw, 350px);
-  width: clamp(160px, 12vw, 350px);
+  width: 45%;
   margin-bottom: 10px;
 }
 .images2 div {
   flex: 0 1 clamp(250px, 15vw, 400px);
-  width: clamp(250px, 15vw, 400px);
+  width: 45%;
   margin-bottom: 10px;
 }
 .images img {
