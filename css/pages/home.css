@@ -21,22 +21,26 @@ main > input:checked + div {
 }
 .home-title {
   width: 100%;
-  height: clamp(168px, 17.5vw, 300px);
+  height: 150px;
+  height: clamp(150px, 17.5vw, 300px);
   background: url(../../images/home/home-title.png);
   background-size: contain;;
 }
 .home-title > div {
-  padding: clamp(10px, 3vw, 50px) 0 0 clamp(13px, 4vw, 64px);
+  padding: 20px 0 0 25px;
+  padding: clamp(20px, 3vw, 50px) 0 0 clamp(25px, 4vw, 64px);
 }
 .home-title img {
-  width: clamp(300px, 25vw, 500px);
+  width: 260px;
+  width: clamp(260px, 25vw, 450px);
 }
 .keyword {
   display: flex;
   justify-content: space-around;
-  width: clamp(300px, 25vw, 500px);
+  width: 260px;
+  width: clamp(260px, 25vw, 450px);
   padding-top: 10px;
-  font-size: .8rem;
+  font-size: .9rem;
   color: white;
 }
 
