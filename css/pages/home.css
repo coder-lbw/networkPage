@@ -62,15 +62,19 @@ main > input:checked + div {
   justify-content: space-around;
   
 }
-.images1 img {
-  flex: 0;
+.images1 div {
+  flex: 0 1 clamp(160px, 12vw, 350px);
   width: clamp(160px, 12vw, 350px);
   margin-bottom: 10px;
 }
-.images2 img {
-  flex: 0;
+.images2 div {
+  flex: 0 1 clamp(250px, 15vw, 400px);
   width: clamp(250px, 15vw, 400px);
   margin-bottom: 10px;
+}
+.images img {
+  width: 100%;
+  height: 100%;
 }
 
 /* 核心优势 */
