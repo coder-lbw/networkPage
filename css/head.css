@@ -19,13 +19,13 @@ header img {
   display: none;
   justify-content: space-evenly;
   align-items: center;
-  width: 160px;
+  width: 150px;
 }
 .mobile-phone img{
   height: 60px;
 }
 .mobile-phone span {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .nav {
