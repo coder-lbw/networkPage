@@ -9,6 +9,9 @@ header h1 {
   position: absolute;
   visibility: hidden;
 }
+header div {
+  height: 100%;
+}
 header img {
   height: 100%;
 }
