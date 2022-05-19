@@ -11,3 +11,18 @@
   text-indent: 1.5em;
   font-size: .8rem;
 }
+
+ /* 微信公众号 */
+ .about-box1 {
+   display: flex;
+   justify-content: space-between;
+ }
+ .wx-gzh {
+  width: 50%;
+  text-align: center;
+  font-size: .8rem;
+ }
+ .wx-gzh img {
+   width: 70%;
+   padding: 1.5rem 0 0 1rem;
+ }
