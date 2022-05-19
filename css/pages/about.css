@@ -13,16 +13,19 @@
 }
 
  /* 微信公众号 */
- .about-box1 {
-   display: flex;
-   justify-content: space-between;
- }
- .wx-gzh {
-  width: 50%;
+.wx-gzh {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   text-align: center;
   font-size: .8rem;
- }
- .wx-gzh img {
-   width: 70%;
-   padding: 1.5rem 0 0 1rem;
- }
+}
+
+.wx-gzh img {
+  width: 30%;
+  margin: .5rem auto 0;
+}
+.wx-gzh p {
+  width: 100%;
+  margin: .5rem 0;
+}
