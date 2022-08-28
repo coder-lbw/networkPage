@@ -11,7 +11,6 @@ expandEle.onclick = function () {
 
 let activeNode = null
 const labels = navEle.children
-console.log(labels);
 activeNode = labels[0]
 navEle.onclick = function (e) {
   if (navEle !== e.target) {

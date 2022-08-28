@@ -1,6 +1,6 @@
 main {
   display: flex;
-  width: 500%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -13,7 +13,7 @@ main > div {
 main > input:checked + div {
   display: block;
   visibility: visible;
-  width: 20%;
+  width: 100%;
 }
 
 .home {
@@ -64,7 +64,7 @@ main > input:checked + div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+
 }
 .images1 div {
   flex: 0 1 clamp(160px, 12vw, 350px);
